@@ -17,7 +17,7 @@ export default class Comp1 extends React.Component {
     }
 
     handleClick(page, event) {
-        let url = `http://www.omdbapi.com/?s=${this.state.title}&y=${this.state.year}&apikey=e67f56be&page=${page}`;
+        let url = `https://www.omdbapi.com/?s=${this.state.title}&y=${this.state.year}&apikey=e67f56be&page=${page}`;
         fetch(url)
         .then(res => res.json())
         .then((rows) => {

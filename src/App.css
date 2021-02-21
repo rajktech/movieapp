@@ -1,0 +1,25 @@
+body{
+  padding: 20px;
+}
+
+.modal_cls {
+  padding: 20px;
+}
+
+.breakall {
+  word-break: break-all;
+}
+
+.card {
+  width: 18rem;
+  float: left;
+  margin: 5px;
+}
+
+.bg_grey {
+  background: #CCC;
+}
+
+.clearboth {
+  clear: both;
+}
